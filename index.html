@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animes</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
 </head>
 <body>
     
@@ -14,6 +15,7 @@
             <div>
                 <h1>Logo</h1>
             </div>
+            <span id="menu-mobile" class="material-symbols-outlined">menu</span>
             <nav>
                 <ul>
                     <li><a href="#">Início</a></li>
@@ -30,12 +32,10 @@
             <div>
                 <h2>Início</h2>
                 <p> 
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, quia mollitia maxime laborum adipisci, 
-                    explicabo molestiae asperiores nostrum omnis, at vitae veritatis corrupti? Debitis veritatis quis, veniam fugiat dolores ipsa!
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, quia mollitia maxime laborum adipisci, 
-                    explicabo molestiae asperiores nostrum omnis, at vitae veritatis corrupti? Debitis veritatis quis, veniam fugiat dolores ipsa!
+                    Seja muito bem-vindo a página geek mais simples e aconchegante do Brasil! ficamos muito felizes em receber sua visita.
+                    Esperamos profundamente que aproveite sua navegação e aproveite para compartilhar essa página com seus queridos amigos e 
+                    familiares, e também, não se esqueça de bater aquele papinho conosco!
                 </p>
-                <a href="#">Saiba mais! </a>
             </div>
         </section>
 
@@ -43,15 +43,17 @@
             <div>
                 <h2>Notícias</h2>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, quia mollitia maxime laborum adipisci, 
-                    explicabo molestiae asperiores nostrum omnis, at vitae veritatis corrupti? Debitis veritatis quis, veniam fugiat dolores ipsa!
+                    Confira as principais atualizações e discussões mais movimentadas:
                 </p>
             </div>
             <div>
                 <h3>OVA da 3ª temporada de OreGairu gera polêmica</h3>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, quia mollitia maxime laborum adipisci, 
-                    explicabo molestiae asperiores nostrum omnis, at vitae veritatis corrupti? Debitis veritatis quis, veniam fugiat dolores ipsa!
+                    A OVA lançada em 27 de abril no Japão, finalmente foi disponibilizada para assistir com legendas em português.
+                    No entanto, após muitas expectativas antes do lançamento, o esperado era de que a OVA adaptasse os pequenos contos
+                    da light novel de OreGairu Shin, focando na relação de Hikigaya Hachiman e Yukinoshita Yukino, trazendo uma conexão
+                    com o desfecho da 3ª temporada. Porém, as expectativas foram completamente por água a baixo (ou boa parte delas). 
+                    <a href="#">Entenda o motivo!</a>
                 </p>
             </div>
             <div>
@@ -62,7 +64,7 @@
                 </p>
             </div>
             <div>
-                <h3>Final Fantasy VII Remake Rebirth (Part II) pode ter sua continuação alterada</h3>
+                <h3>Final Fantasy VII Rebirth pode ter sua continuação alterada</h3>
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, quia mollitia maxime laborum adipisci, 
                     explicabo molestiae asperiores nostrum omnis, at vitae veritatis corrupti? Debitis veritatis quis, veniam fugiat dolores ipsa!
@@ -74,11 +76,12 @@
             <div>
                 <h2>Favoritos</h2>
                 <p>
-                    Confira a lista dos 3 animes mais assistidos
+                    Confira a lista dos 3 animes mais assistidos:
                 </p>
             </div>
             <div>
-                <h3>Anime 1</h3>
+                <h3>Naruto Shippuden</h3>
+                <img src="imagens/naruto.jpg" alt="naruto shippuden papel de parede">
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, quia mollitia maxime laborum adipisci, 
                     explicabo molestiae asperiores nostrum omnis, at vitae veritatis corrupti? Debitis veritatis quis, veniam fugiat dolores ipsa!
@@ -86,7 +89,8 @@
                 <a href="#">Leia mais</a>
             </div>
             <div>
-                <h3>Anime 2</h3>
+                <h3>Attack on Titan</h3>
+                <img src="imagens/aot.jpg" alt="attack on titan papel de parede">
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, quia mollitia maxime laborum adipisci, 
                     explicabo molestiae asperiores nostrum omnis, at vitae veritatis corrupti? Debitis veritatis quis, veniam fugiat dolores ipsa!
@@ -94,7 +98,8 @@
                 <a href="#">Leia mais</a>
             </div>
             <div>
-                <h3>Anime 3</h3>
+                <h3>Black Clover</h3>
+                <img src="imagens/blackclover.jpg" alt="blackclover papel de parede">
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, quia mollitia maxime laborum adipisci, 
                     explicabo molestiae asperiores nostrum omnis, at vitae veritatis corrupti? Debitis veritatis quis, veniam fugiat dolores ipsa!
@@ -102,7 +107,32 @@
                 <a href="#">Leia mais</a>
             </div>
         </section>
+
+        <section id="contato">
+            <div>
+                <h2>Contato</h2>
+            </div>
+            <p>
+                Agende um bate papo conosco! Ah! E fique a vontade para sugestões, críticas e compartilhar novidades.
+            </p>
+            <form action="confirmação.php" method="get">
+                <div>
+                    <label for="iemail">E-mail: </label>
+                    <input type="email" name="email" id="iemail">
+
+                    <label for="isenha">Senha: </label>
+                    <input type="password" name="senha" id="isenha">
+
+                    <label for="imsg">Mensagem: </label>
+                    <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </section>
+
     </main>
 
+    <footer>
+        <p>Desenvolvido por Jayme Campos</p>
+    </footer>
 </body>
 </html>
