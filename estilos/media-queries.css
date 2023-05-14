@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/* Versão para tablets e outros dispositivos */
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    section#favoritos div img {
+        height: 250px;
+    }
+}
