@@ -2,11 +2,17 @@
 
 /* Versão para celular (>= 600px) - Mobile first */
 
-/* 
-    ====> Paleta de cores <====
+/*====> Variáveis de Paleta de cores <====*/
+:root {
 
+    --cor1: #012030;
+    --cor2: #13678A;
+    --cor3: #45C4B0;
+    --cor4: #9AEBA3;
+    --cor5: #DAFDBA;
 
-*/
+} 
+    
 
 * {
     margin: 0;
@@ -16,33 +22,66 @@
     text-decoration: none;
     text-align: justify;
     color: black;
+    list-style-type: none;
 }
 
 html, body {
-    background-color: blue;
+    background-color: var(--cor2)
+}
+
+header {
+    background-color: var(--cor1);
 }
 
 div#header {
-    display: flex;
     max-width: 1200px;
     margin: auto;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 5px;
 }
 
-nav ul {
-    display: flex;
-    list-style-type: none;
-    gap: 1rem;
+div#header h1 {
+    text-align: center;
+    padding: 5px;
+    color: var(--cor3);
 }
 
 nav {
     display: none;
 }
 
+nav ul li {
+    text-align: center;
+    padding: 7px;
+}
+
+nav ul li a {
+    color: var(--cor4);
+}
+
+nav ul li:hover {
+    background-color: var(--cor2);
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    transition: .5s;
+    color: white;
+}
+
 span#menu-mobile {
     cursor: pointer;
+    display: block;
+    text-align: center;
+    padding: 7px;
+    color: var(--cor3);
+}
+
+span#menu-mobile:hover {
+    background-color: var(--cor2);
+    color: white;
+    transition: 1s;
 }
 
 a {
@@ -78,6 +117,28 @@ section p {
 }
 
 section#favoritos div img {
-    width: 240px;
+    width: 250px;
     height: 200px;
+}
+
+footer {
+    padding: 10px;
+    background-color: var(--cor1);
+}
+
+footer p {
+    text-align: center;
+    color: var(--cor4);
+}
+
+footer p a {
+    color: var(--cor5);
+}
+
+footer p a:hover {
+    background-color: var(--cor2);  
+    padding: 5px;  
+    border-bottom: 2px solid var(--cor5);
+    border-radius: 3px;
+    transition: .5s;
 }
