@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animes</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
 </head>
 <body>
@@ -126,16 +127,30 @@
             <p>
                 Agende um bate papo conosco! Ah! E fique a vontade para sugestões, críticas e compartilhar novidades.
             </p>
-            <form action="confirmação.php" method="get">
+            <form action="confirmação.php" method="get" autocomplete="on">
                 <div>
-                    <label for="iemail">E-mail: </label>
-                    <input type="email" name="email" id="iemail">
+                    <p>
+                        <label for="inome">Nome: </label>
+                        <input type="text" name="nome" id="inome">
+                    </p>
+                </div>
 
-                    <label for="isenha">Senha: </label>
-                    <input type="password" name="senha" id="isenha">
+                <div>
+                    <p>
+                        <label for="iemail">E-mail: </label>
+                        <input type="email" name="email" id="iemail">
+                    </p>
+                </div>
 
-                    <label for="imsg">Mensagem: </label>
+                <div>
+                    <p>
+                        <label for="imsg">Mensagem: </label>
+                    </p>
                     <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <input id="btn-enviar" type="submit" value="Enviar">
                 </div>
             </form>
         </section>
