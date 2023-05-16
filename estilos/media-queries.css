@@ -6,3 +6,25 @@
         height: 250px;
     }
 }
+
+/* Versão para telas maiores */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#favoritos div {
+        height: 195px;
+        margin-bottom: 45px;
+    }
+
+
+    section#favoritos div img {
+        float: left;
+        width: 35%;
+        height: 160px;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+
+    section#favoritos div p {
+        line-height: 1.7em;
+    }
+
+}
