@@ -1,14 +1,17 @@
 @charset "UTF-8";
 
-/* Versão para tablets e outros dispositivos */
+/* Versão para tablets e dispositivos semelhantes */
 @media screen and (min-width: 600px) and (max-width: 768px) {
+
     section#favoritos div img {
         height: 250px;
     }
+
 }
 
 /* Versão para telas maiores */
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
     section#favoritos div {
         height: 195px;
         margin-bottom: 45px;
@@ -26,5 +29,29 @@
     section#favoritos div p {
         line-height: 1.7em;
     }
+
+}
+
+/* Versão para desktop */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    section#favoritos div {
+        width: 29%;
+        display: inline-table;
+        margin-left: 2.5%;
+    }
+
+    div#anime1, div#anime2, div#anime3 {
+        padding: 10px;
+        background-color: #d3d3d3af;
+        border-radius: 5px;
+    } 
+
+    section#favoritos div h3 {
+        text-align: center;
+    }
+}
+
+/* Versão para telas maiores com largura mínima de 1200px */
+@media screen and (min-width: 1200px) {
 
 }
