@@ -12,6 +12,24 @@
 /* Versão para telas maiores */
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
+    span#menu-mobile {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: inline-block;
+        text-align: center;
+        margin: 3% 5% 0% 5%;
+    }
+
     section#favoritos div {
         height: 195px;
         margin-bottom: 45px;
@@ -27,31 +45,81 @@
     }
 
     section#favoritos div p {
-        line-height: 1.7em;
+        line-height: 1.4em;
     }
 
 }
 
 /* Versão para desktop */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
-    section#favoritos div {
-        width: 29%;
-        display: inline-table;
-        margin-left: 2.5%;
+
+    span#menu-mobile {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: inline-block;
+        text-align: center;
+        margin: 3% 5% 0% 5%;;
     }
 
     div#anime1, div#anime2, div#anime3 {
+        max-width: 80%;
+        margin: 25px auto;
         padding: 10px;
-        background-color: #d3d3d3af;
+        background-color: #d3d3d38e;
+        border-radius: 5px;
+    } 
+
+    section#favoritos div img {
+        height: 300px;
+    }
+
+    section#favoritos div h3 {
+        text-align: center;
+    }
+
+}
+
+/* Versão para telas maiores com largura mínima de 1200px */
+@media screen and (min-width: 1200px) {
+
+    span#menu-mobile {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: inline-block;
+        text-align: center;
+        margin: 3% 5% 0% 5%;
+    }
+
+    div#anime1, div#anime2, div#anime3 {
+        max-width: 29%;
+        display: inline-table;
+        margin-left: 2.5%;
+        padding: 10px;
+        background-color: #d3d3d38e;
         border-radius: 5px;
     } 
 
     section#favoritos div h3 {
         text-align: center;
     }
-}
-
-/* Versão para telas maiores com largura mínima de 1200px */
-@media screen and (min-width: 1200px) {
-
 }
