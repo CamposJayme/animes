@@ -30,11 +30,15 @@
         margin: 3% 5% 0% 5%;
     }
 
+    section p {
+        font-size: 11pt;
+        line-height: 1.4em;
+    }
+
     section#favoritos div {
         height: 195px;
         margin-bottom: 45px;
     }
-
 
     section#favoritos div img {
         float: left;
@@ -79,6 +83,11 @@
         border-radius: 5px;
     } 
 
+    section p {
+        font-size: 11pt;
+        line-height: 1.5em;
+    }
+
     section#favoritos div img {
         height: 300px;
     }
@@ -108,6 +117,11 @@
         display: inline-block;
         text-align: center;
         margin: 3% 5% 0% 5%;
+    }
+
+    section p {
+        font-size: 11pt;
+        line-height: 1.5em;
     }
 
     div#anime1, div#anime2, div#anime3 {
