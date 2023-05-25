@@ -57,6 +57,10 @@
 /* Versão para desktop */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
 
+    body {
+        background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+    }
+
     span#menu-mobile {
         display: none;
     }
@@ -100,6 +104,10 @@
 
 /* Versão para telas maiores com largura mínima de 1200px */
 @media screen and (min-width: 1200px) {
+
+    body {
+        background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+    }
 
     span#menu-mobile {
         display: none;
