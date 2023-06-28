@@ -112,7 +112,7 @@ section h3 {
 }
 
 section p {
-    text-align: justify;
+    text-align: left;
     word-spacing: -1.2px;
     font-size: 15px;
 }
