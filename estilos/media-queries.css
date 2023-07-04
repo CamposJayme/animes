@@ -100,6 +100,12 @@
         text-align: center;
     }
 
+    section#contato form {
+        margin: auto;
+        width: 70%;
+        padding: 10px;
+    }
+
 }
 
 /* Versão para telas maiores com largura mínima de 1200px */
@@ -145,4 +151,11 @@
     section#favoritos div h3 {
         text-align: center;
     }
+
+    section#contato form {
+        margin: auto;
+        width: 60%;
+        padding: 10px;
+    }
+
 }
