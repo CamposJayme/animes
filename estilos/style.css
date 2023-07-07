@@ -58,6 +58,7 @@ nav ul li {
 nav ul li:hover {
     background-color: var(--cor2);
     border-radius: 5px;
+    border: 2px solid white;
 }
 
 nav ul li a {
