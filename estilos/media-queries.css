@@ -7,10 +7,31 @@
         height: 250px;
     }
 
+    nav ul li::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 3px;
+        background-color: var(--cor5);
+        transition: width .5s;
+    }
+    
+    nav ul li:hover::after{
+        width: 100%;
+        transition: width .5s;
+    }
+
 }
 
 /* Versão para telas maiores */
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: url(../imagens/landscape-anime.jpg);
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
 
     span#menu-mobile {
         display: none;
@@ -27,7 +48,23 @@
     nav ul li {
         display: inline-block;
         text-align: center;
-        margin: 3% 5% 0% 5%;
+        margin: 3% 0% 0% 0%;
+        width: 100px;
+        background-color: var(--cor2);
+    }
+
+    nav ul li::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 3px;
+        background-color: var(--cor5);
+        transition: width .5s;
+    }
+    
+    nav ul li:hover::after{
+        width: 100%;
+        transition: width .5s;
     }
 
     section p {
@@ -58,7 +95,10 @@
 @media screen and (min-width: 993px) and (max-width: 1200px) {
 
     body {
-        background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+        background-image: url(../imagens/landscape-anime.jpg);
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
     }
 
     span#menu-mobile {
@@ -76,19 +116,36 @@
     nav ul li {
         display: inline-block;
         text-align: center;
-        margin: 3% 5% 0% 5%;;
+        margin: 3% 0% 0% 0%;
+        width: 100px;
+        background-color: var(--cor2);
+    }
+
+    nav ul li::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 3px;
+        background-color: var(--cor5);
+        transition: width .5s;
+    }
+    
+    nav ul li:hover::after{
+        width: 100%;
+        transition: width .5s;
     }
 
     div#anime1, div#anime2, div#anime3 {
         max-width: 80%;
         margin: 25px auto;
         padding: 10px;
-        background-color: #d3d3d38e;
+        background-color: #d1d1d1f6;
         border-radius: 5px;
+        border: 2px solid black;
     } 
 
     section p {
-        font-size: 11pt;
+        font-size: 12pt;
         line-height: 1.5em;
     }
 
@@ -112,7 +169,10 @@
 @media screen and (min-width: 1200px) {
 
     body {
-        background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+        background-image: url(../imagens/landscape-anime.jpg);
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
     }
 
     span#menu-mobile {
@@ -130,11 +190,27 @@
     nav ul li {
         display: inline-block;
         text-align: center;
-        margin: 3% 5% 0% 5%;
+        margin: 3% 0% 0% 0%;
+        width: 100px;
+        background-color: var(--cor2);
+    }
+
+    nav ul li::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 3px;
+        background-color: var(--cor5);
+        transition: width .5s;
+    }
+    
+    nav ul li:hover::after{
+        width: 100%;
+        transition: width .5s;
     }
 
     section p {
-        font-size: 14.5px;
+        font-size: 12pt;
         word-spacing: -1px;
         line-height: 1.5em;
     }
@@ -144,8 +220,10 @@
         display: inline-table;
         margin-left: 2.5%;
         padding: 10px;
-        background-color: #d3d3d38e;
+        background-color: #d1d1d1f6;
         border-radius: 5px;
+        box-sizing: border-box;
+        border: 2px solid black;
     } 
 
     section#favoritos div h3 {
