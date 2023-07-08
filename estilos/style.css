@@ -27,6 +27,8 @@ html, body {
     background-color: var(--cor2);
 }
 
+/*Cabeçalho e Menu*/
+
 header {
     background-color: var(--cor1);
 }
@@ -95,6 +97,8 @@ a {
     font-weight: bold;
 }
 
+/*Conteúdo principal*/
+
 main {
     max-width: 65%;
     margin: auto;
@@ -130,6 +134,8 @@ section#favoritos div img {
     height: 200px;
 }
 
+/*Formulário de contato*/
+
 form input {
     width: 100%;
     padding: 5px;
@@ -145,6 +151,8 @@ form input#btn-enviar {
     margin: auto;
     text-align: center;
 }
+
+/*Rodapé*/
 
 footer {
     padding: 10px;
