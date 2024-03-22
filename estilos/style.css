@@ -141,6 +141,7 @@ form input {
 
 form textarea {
     width: 100%;
+    resize: none;
 }
 
 form input#btn-enviar {
