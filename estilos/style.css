@@ -47,27 +47,25 @@ div#header h1 {
     color: white;
 }
 
+.logo {
+    max-width: 370px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.logo img {
+    margin-top: 15px;
+    width: 100%;
+}
+
 nav {
+    margin-top: -5px;
     display: none;
 }
 
 nav ul li {
     text-align: center;
     padding: 7px;
-}
-
-nav ul li::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 3px;
-    background-color: var(--cor5);
-    transition: width .5s;
-}
-
-nav ul li:hover::after{
-    width: 100%;
-    transition: width .5s;
 }
 
 nav ul li a {
