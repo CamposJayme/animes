@@ -31,12 +31,14 @@ html, body {
 
 header {
     background-color: var(--cor1);
+    padding: 8px;
 }
 
 div#header {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
     justify-content: space-between;
+    display: flex;
     align-items: center;
     padding: 5px;
 }
@@ -48,18 +50,14 @@ div#header h1 {
 }
 
 .logo {
-    max-width: 370px;
-    margin: 0 auto;
-    padding: 24px;
+    max-width: 220px;
 }
 
 .logo img {
-    margin-top: 15px;
     width: 100%;
 }
 
 nav {
-    margin-top: -5px;
     display: none;
 }
 
